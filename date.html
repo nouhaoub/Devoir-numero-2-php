@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+	<form method="post" action="valideDate.php">
+		<table>
+		   <tr>
+               <td><label for="jour">Jour</label></td>
+               <td><label for="mois">Mois</label></td>
+               <td> <label for="annee">Annee</label><br></td>
+           </tr>
+               <td><input type="text" name="jour" id="jour"></td>
+               <td><input type="text" name="mois" id="mois"></td>
+               <td><input type="text" name="annee" id="annee"></td>
+           </tr>
+           <tr>
+           	   <td><input type="submit" value="envoyer"></td>
+           	</tr>
+        </table>
+	</form>
+<?php 
+   include"valideDate.php";
+ ?>
+</body>
+</html>
